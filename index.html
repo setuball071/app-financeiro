@@ -48,12 +48,13 @@ const useNotification = () => useContext(NotificationContext);
 // !!!!! IMPORTANTE !!!!!
 // SUBSTITUA O CONTEÚDO ABAIXO PELAS SUAS CHAVES DO FIREBASE
 const firebaseConfig = {
-    apiKey: "COLE_SUA_API_KEY_AQUI",
-    authDomain: "SEU_PROJETO.firebaseapp.com",
-    projectId: "SEU_PROJETO_ID",
-    storageBucket: "SEU_PROJETO.appspot.com",
-    messagingSenderId: "SEU_MESSAGING_SENDER_ID",
-    appId: "SEU_APP_ID"
+    apiKey: "AIzaSyBgYMLMbDVH7MtsWGS_GQZ7nVmyv1IWsAE",
+  authDomain: "meu-financeiro-ee0ac.firebaseapp.com",
+  projectId: "meu-financeiro-ee0ac",
+  storageBucket: "meu-financeiro-ee0ac.firebasestorage.app",
+  messagingSenderId: "389480144669",
+  appId: "1:389480144669:web:ce8da22914b264f3e64bf4",
+  measurementId: "G-8WMX49SM0T"
 };
 
 
@@ -302,7 +303,7 @@ const SettingsPage = ({ theme, setTheme }) => {
 
 // --- Componente Principal ---
 const FinanceApp = ({ user }) => {
-    const [activePage, setActivePage] = useState('dashboard');
+    const [activePage, setActivePage] = useState('dashboard';
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [confirmModal, setConfirmModal] = useState({ isOpen: false });
     const [dollarRate, setDollarRate] = useState(null);
